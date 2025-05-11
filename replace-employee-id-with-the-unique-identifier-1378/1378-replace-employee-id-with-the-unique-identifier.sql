@@ -1,0 +1,6 @@
+# Write your MySQL query statement below
+SELECT UNIQUE_ID , NAME
+FROM EMPLOYEES AS E
+LEFT JOIN EMPLOYEEUNI AS EU
+ON E.ID = EU.ID
+
